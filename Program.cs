@@ -9,7 +9,7 @@ class Program
 
         string connectionString = @"Data Source = DESKTOP-53EDIV8; Initial Catalog=master; Integrated Security = True";
 
-        string databaseName = "EmployeePayrollAdoDOTNet";
+        string databaseName = "employee_payroll_service";
         try
         {
             SqlConnection connection = new SqlConnection(connectionString);
